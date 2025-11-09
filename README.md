@@ -30,17 +30,49 @@ Built with Java Swing using JFrame, JPanel, JButton, and JTextArea.
 # Object-Oriented Design
 Product (abstract)
  ├── Cake
+ 
  ├── Cupcake
+ 
  └── Pastry
 
 Customer
+
 Order
+
 BakeryManager
+
 BakeryApp (Main GUI)
 
+Each subclass extends the Product superclass, demonstrating inheritance and polymorphism.
 
+# File Structure
+PetalCrumbs/
 
+│
 
+├── src/
 
+│   ├── Product.java
 
+│   ├── Cake.java
 
+│   ├── Cupcake.java
+
+│   ├── Pastry.java
+
+│   ├── Customer.java
+
+│   ├── Order.java
+
+│   ├── BakeryManager.java
+
+│   └── BakeryApp.java
+
+│
+
+└── README.md
+# About the Developer
+Hi! I’m Iman Adams, a computer science student from Cape Town passionate about building real world software projects.
+
+This project showcases my skills in Java, GUI design, and Object-Oriented Programming.
+I’m currently building a portfolio to grow as a developer and gain professional experience.
